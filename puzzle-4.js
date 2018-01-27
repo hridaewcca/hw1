@@ -1,4 +1,4 @@
-function PassThrough {
+function PassThrough (){
 up
 right
 var A = setColor
