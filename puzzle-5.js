@@ -1,4 +1,4 @@
-function PassThrough {
+function PassThrough (){
 right
 right
 if (getColor == "blue") {
