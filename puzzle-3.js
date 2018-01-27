@@ -1,6 +1,6 @@
 down
 down
-var A = getColor
+var A = getColor()
 down
 down
 down
