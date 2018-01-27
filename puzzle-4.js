@@ -1,7 +1,7 @@
 function PassThrough (){
 up
 right
-var A = setColor
+var A = setColor ()
 down
 setColor(A)
 right
