@@ -1,22 +1,22 @@
 function pinkAction (){
-  up
-  up
-  up
-    if (getColor == "blue") {
-      right
-      up
+  up();
+  up();
+  up();
+    if (getColor() == "blue") {
+      right();
+      up();
     }
-    if (getColor == "pink") {
-      left
-      up
+    if (getColor() == "pink") {
+      left();
+      up();
     }
 }
-right
-  if (getColor == "blue") {
-    down
-    down
-    down
-    left
-    down
+right();
+  if (getColor() == "blue") {
+    down();
+    down();
+    down();
+    left();
+    down();
   }
-else pinkAction
+else pinkAction();
