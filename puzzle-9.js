@@ -1,48 +1,44 @@
 function moveRight (){
 	var steps = 0
-		while (steps < 8){
-			var A = getColor ()
-			while (getColor == "white") {
+		while (steps < 50){
+			
 				setColor ("blue")
-				right
-				}
+				right();
+				
 			steps = steps + 1
 		}
 }
 function moveDown (){				
 	var steps = 0
-		while (steps < 4){
-			var A = getColor ()
-			while (getColor == "white") {
+		while (steps < 20){
+			
 				setColor ("blue")
-				down
-				}
+				down();
+				
 			steps = steps + 1
 		}
 }
 function moveLeft (){				
 	var steps = 0
-		while (steps < 8){
-			var A = getColor ()
-			while (getColor == "white") {
+		while (steps < 50){
+			
 				setColor ("blue")
-				left
-				}
+				left();
+    	
 			steps = steps + 1
-		}
+    }
 }
 function moveUp (){				
 	var steps = 0
-		while (steps < 3){
-			var A = getColor ()
-			while (getColor == "white") {
+		while (steps < 20){
+			
 				setColor ("blue")
-				up
-				}
+				up();
+				
 			steps = steps + 1
 		}
 }
-moveRight
-moveDown
-moveLeft
-moveUp
+moveRight();
+moveDown();
+moveLeft();
+moveUp();
