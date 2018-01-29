@@ -6,7 +6,7 @@ function pinkAction (){
       right();
       up();
     }
-    if (getColor() == "pink") {
+    if (getColor() == "red") {
       left();
       up();
     }
@@ -16,7 +16,7 @@ right();
     down();
     down();
     down();
-    	if (getColor() == "pink") {
+    	if (getColor() == "red") {
         left();
         down();
       }
