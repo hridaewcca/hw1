@@ -1,25 +1,25 @@
 function goDown (){
-  var steps = 0 ()
+  var steps = 0 ;
   while (steps < 8) {
-    down
+    down();
     steps = steps + 1
   }
-  right
+  right();
 }
 function goUp (){
-  var steps = 0 ()
+  var steps = 0 ;
   while (steps < 8) {
-    up
+    up();
     steps = steps + 1
   }
-  right
+  right();
 }
-goDown
-right
-goUp
-right
-goDown
-right
-goUp
-right
-goDown
+goDown();
+right();
+goUp();
+right();
+goDown();
+right();
+goUp();
+right();
+goDown();
