@@ -1,21 +1,21 @@
 function lineDown (){
-  while (getColor !="red") {
-      down
+  while (getColor() !="red") {
+      down();
   }
-  right
+  right();
 }
 function lineUp (){
-  while (getColor !="red") {
-    up
+  while (getColor() !="red") {
+    up();
   }
-  right
+  right();
 }
-lineDown
-right
-lineUp
-right
-lineDown
-right
-lineUp
-right
-lineDown
+lineDown();
+right();
+lineUp();
+right();
+lineDown();
+right();
+lineUp();
+right();
+lineDown();
