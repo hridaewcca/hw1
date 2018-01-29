@@ -16,7 +16,13 @@ right();
     down();
     down();
     down();
-    left();
+    	if (getColor() == "pink") {
+        left();
+        down();
+      }
+    else {
+    right();
     down();
+    }
   }
 else pinkAction();
