@@ -1,15 +1,15 @@
-function PassThrough (){
-right
-right
-if (getColor == "blue") {
-down
+function PassThrough() {
+right();
+right();
+if (getColor() == "blue") {
+down();
 }
-if (getColor == "pink") {
-up
+if (getColor() == "red") {
+up();
 }
 }
-PassThrough
-PassThrough
-PassThrough
-PassThrough
-right
+PassThrough();
+PassThrough();
+PassThrough();
+PassThrough();
+right();
